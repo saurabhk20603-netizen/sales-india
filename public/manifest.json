@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "Sales India Shopping Bazar",
+  "short_name": "SalesIndia",
+  "description": "Multi-vendor Indian marketplace and fast express delivery partner platform. Shop Smart. Sell More. Earn Anytime.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#ea580c",
+  "background_color": "#ffffff",
+  "categories": ["shopping", "business", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI & Photo Search",
+      "short_name": "AI Search",
+      "description": "Visual search with camera and AI",
+      "url": "/?action=ai-search",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Track Deliveries",
+      "short_name": "Tracking",
+      "description": "Track active and completed deliveries",
+      "url": "/?action=orders",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Fast Service 15-Min",
+      "short_name": "Fast Service",
+      "description": "10-15 min express delivery",
+      "url": "/?action=fast-service",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

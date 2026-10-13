@@ -1,0 +1,6 @@
+{
+  "name": "Sales India – Shopping Bazar",
+  "description": "Multi-vendor e-commerce marketplace and flexible last-mile delivery partner platform in India. Shop Smart. Sell More. Earn Anytime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
